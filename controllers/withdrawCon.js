@@ -4,7 +4,6 @@ const userModel = require("../models/User")
 const withdrawModel = require("../models/withdrawModel")
 // const currencyapi = require('@everapi/currencyapi-js');
 require("dotenv").config()
-// const axios = require('axios');
 
 // withdraw function
 exports.withdraw = async (req, res) => {
